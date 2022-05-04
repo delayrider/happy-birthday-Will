@@ -47,7 +47,6 @@ body {
 @media screen and (max-height: 640px) {
     .card {
         flex-direction: row-reverse;
-        position: fixed;
     }
 
     .card img.birthday {
@@ -81,7 +80,7 @@ img.birthday {
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Press Start 2p', sans-serif;
     line-height: 1.5;
     margin-top: -1.5rem;
 }
@@ -102,7 +101,7 @@ img.birthday {
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Press Start 2p', sans-serif;
     line-height: 1.5;
     padding: 0 0.5rem 0 0.5rem;
 }
