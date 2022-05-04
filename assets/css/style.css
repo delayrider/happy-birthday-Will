@@ -3,7 +3,6 @@
 @font-face {
     font-family: 'Press Start 2P';
     font-style: normal;
-    font-weight: 400;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK3nbivN04w.woff2) format('woff2');
   }
@@ -95,7 +94,7 @@ img.birthday {
 
 .neon-button {
     font-size: 1rem;
-    font-family: 'Press Start 2p';
+    font-family: 'Press Start 2p', cursive;
 
     display: inline-block;
     cursor: pointer;
