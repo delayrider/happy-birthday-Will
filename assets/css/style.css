@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-* {
-    transition: all 0.2s ease-in-out;
-}
-
 body {
     background-image: linear-gradient(45deg, #6c8bb6 16.67%, #fb7e3c 16.67%, #fb7e3c 33.33%, #fced89 33.33%, #fced89 50%, #6c8bb6 50%, #6c8bb6 66.67%, #fb7e3c 66.67%, #fb7e3c 83.33%, #fced89 83.33%, #fced89 100%);
     background-size: 84.85px 84.85px;
@@ -84,7 +80,7 @@ img.birthday {
     background: #6C8BB6;
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; 
     font-family: 'Press Start 2P', sans-serif;
     line-height: 1.5;
     margin-top: -1.5rem;
