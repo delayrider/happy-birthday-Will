@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
 
 @font-face {
     font-family: 'Press Start 2P';
@@ -94,7 +94,7 @@ img.birthday {
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P';
     line-height: 1.5;
     margin-top: -1.5rem;
     
@@ -102,7 +102,7 @@ img.birthday {
 
 .neon-button {
     font-size: 1rem;
-    font-family: 'Press Start 2p', cursive;
+    font-family: 'Press Start 2p';
 
     display: inline-block;
     cursor: pointer;
