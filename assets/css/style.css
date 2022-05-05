@@ -92,7 +92,7 @@ img.birthday {
     background: #6C8BB6;
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: rgba(255, 255, 255, 0); 
     font-family: 'Press Start 2P', cursive;
     line-height: 1.5;
     margin-top: -1.5rem;
@@ -116,7 +116,7 @@ img.birthday {
     background: #6C8BB6;
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
     font-family: 'Press Start 2P', cursive;
     line-height: 1.5;
     padding: 0 0.5rem 0 0.5rem;
@@ -128,7 +128,7 @@ img.birthday {
     background: #6C8BB6;
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
     position: center;
 }
     
