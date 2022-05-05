@@ -1,12 +1,15 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+/*@font-face {
     font-family: 'Press Start 2P';
     src: url('./fonts/PressStart2P-Regular.woff2') format('woff2'),
         url('./fonts/PressStart2P-Regular.woff') format('woff'),
-        url('./fonts/PressStart2P-Regular.svg') format('svg');
+        url('./fonts/PressStart2P-Regular.svg#PressStart2P-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
+}*/
 
 body {
     background-image: linear-gradient(45deg, #6c8bb6 16.67%, #fb7e3c 16.67%, #fb7e3c 33.33%, #fced89 33.33%, #fced89 50%, #6c8bb6 50%, #6c8bb6 66.67%, #fb7e3c 66.67%, #fb7e3c 83.33%, #fced89 83.33%, #fced89 100%);
@@ -55,7 +58,7 @@ body {
 @media screen and (max-height: 600px) {
 
     .wishes {
-        font-size: smaller;
+        font-size: larger;
     }
 
 }
@@ -96,15 +99,15 @@ img.birthday {
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0); 
-    font-family: 'Press Start 2P', cursive;
-    line-height: 1.5;
-    margin-top: -1.5rem;
+    font-family: 'Paytone One', cursive;
+    line-height: 2;
+    /* margin-top: -1.5rem; */
     
 }
 
 .neon-button {
     font-size: 1rem;
-    font-family: 'Press Start 2p', cursive;
+    font-family: 'Paytone One', cursive;
 
     display: inline-block;
     cursor: pointer;
@@ -120,8 +123,8 @@ img.birthday {
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
-    font-family: 'Press Start 2P', cursive;
-    line-height: 1.5;
+    font-family: 'Paytone One', cursive;
+    line-height: 2;
     padding: 0 0.5rem 0 0.5rem;
     
 }
