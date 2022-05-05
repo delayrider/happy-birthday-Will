@@ -51,6 +51,14 @@ body {
 
 }
 
+@media screen and (max-height: 570px) {
+
+    .wishes {
+        font-size: small;
+    }
+
+}
+
 @media screen and (max-height: 375px) {
     .card {
         flex-direction: row-reverse;
@@ -109,7 +117,7 @@ img.birthday {
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P';
     line-height: 1.5;
     padding: 0 0.5rem 0 0.5rem;
 }
