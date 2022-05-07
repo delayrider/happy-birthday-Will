@@ -55,7 +55,7 @@ body {
 
 }
 
-/*@media screen and (max-height: 375px) {
+@media screen and (max-height: 375px) {
     .card {
         flex-direction: row-reverse;
     }
@@ -79,7 +79,7 @@ body {
         padding: 0 0 2em 0;
     }
 
-} */
+}
 
 img.birthday {
     margin-top: -1.55rem;
@@ -87,10 +87,7 @@ img.birthday {
 }
 
 .text {
-    background: #6C8BB6;
-    background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0); 
+    color: #fb7e3c;
     font-family: 'Permanent Marker', sans-serif;
     line-height: 2;
     /* margin-top: -1.5rem; */
@@ -106,6 +103,7 @@ img.birthday {
 .neon-button {
     font-size: 1rem;
     font-family: 'Permanent Marker', sans-serif;
+    color: #fb7e3c;
 
     display: inline-block;
     cursor: pointer;
@@ -117,10 +115,7 @@ img.birthday {
 
 
 .wishes{
-    background: #6C8BB6;
-    background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    color: #fb7e3c;
     font-family: 'Permanent Marker', sans-serif;
     line-height: 2;
     padding: 0 0.5rem 0 0.5rem;
@@ -128,11 +123,7 @@ img.birthday {
 }
 
 .wishes .neon-button{
-    margin: 0.5rem;
-    background: #6C8BB6;
-    background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    color: #fb7e3c;
     position: center;
 }
     
