@@ -1,16 +1,5 @@
 /* press-start-2p-regular - latin */
-@font-face {
-    font-family: 'Press Start 2P';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/press-start-2p-v14-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/press-start-2p-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/press-start-2p-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/press-start-2p-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/press-start-2p-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/press-start-2p-v14-latin-regular.svg#PressStart2P') format('svg'); /* Legacy iOS */
-  }
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 body {
@@ -20,7 +9,7 @@ body {
     place-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'Press Start 20';
+    font-family: 'Permanent Marker', sans-serif;
 }
 
 .card {
@@ -102,7 +91,7 @@ img.birthday {
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0); 
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Permanent Marker', sans-serif;
     line-height: 2;
     /* margin-top: -1.5rem; */
     
@@ -110,7 +99,7 @@ img.birthday {
 
 .neon-button {
     font-size: 1rem;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Permanent Marker', sans-serif;
 
     display: inline-block;
     cursor: pointer;
@@ -126,7 +115,7 @@ img.birthday {
     background: linear-gradient(to right, #FB7E3C 29%, #FCED89 77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Permanent Marker', sans-serif;
     line-height: 2;
     padding: 0 0.5rem 0 0.5rem;
     
