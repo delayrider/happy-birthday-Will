@@ -96,8 +96,8 @@ img.birthday {
 
 .text p {
     text-align: justify;
-    padding: 2rem;
-    font-size: largeer;
+    padding: 0.5rem;
+    font-size: smaller;
 }
 
 .neon-button {
