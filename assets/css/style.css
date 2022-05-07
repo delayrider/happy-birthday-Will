@@ -1,5 +1,5 @@
 /* press-start-2p-regular - latin */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 body {
@@ -9,7 +9,7 @@ body {
     place-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Permanent Marker', sans-serif;
 }
 
 .card {
@@ -50,7 +50,7 @@ body {
 @media screen and (max-height: 600px) {
 
     .wishes {
-        font-size: larger;
+        font-size: large;
     }
 
 }
@@ -88,7 +88,7 @@ img.birthday {
 
 .text {
     color: #fb7e3c;
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Permanent Marker', sans-serif;
     line-height: 1.5;
     /* margin-top: -1.5rem; */
     
@@ -97,12 +97,12 @@ img.birthday {
 .text p {
     text-align: center;
     padding: 0.75rem;
-    font-size: smaller;
+    font-size: large;
 }
 
 .neon-button {
     font-size: 1rem;
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Permanent Marker', sans-serif;
     color: #fb7e3c;
 
     display: inline-block;
@@ -116,7 +116,7 @@ img.birthday {
 
 .wishes{
     color: #fb7e3c;
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Permanent Marker', sans-serif;
     line-height: 2;
     padding: 0 0.5rem 0 0.5rem;
     
