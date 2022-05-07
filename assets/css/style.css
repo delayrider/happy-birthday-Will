@@ -55,7 +55,7 @@ body {
 
 }
 
-@media screen and (max-height: 375px) {
+/*@media screen and (max-height: 375px) {
     .card {
         flex-direction: row-reverse;
     }
@@ -79,7 +79,7 @@ body {
         padding: 0 0 2em 0;
     }
 
-}
+} */
 
 img.birthday {
     margin-top: -1.55rem;
