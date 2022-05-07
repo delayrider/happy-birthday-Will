@@ -97,6 +97,12 @@ img.birthday {
     
 }
 
+.text p {
+    text-align: justify;
+    padding: 2rem;
+    font-size: largeer;
+}
+
 .neon-button {
     font-size: 1rem;
     font-family: 'Permanent Marker', sans-serif;
